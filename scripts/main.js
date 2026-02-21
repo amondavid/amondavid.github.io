@@ -1,10 +1,11 @@
-const myImage = document.querySelector("img");
+//const myImage = document.querySelector("img");
 
-myImage.addEventListener("click", () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/apostle.jpg") {
-    myImage.setAttribute("src", "images/cactus.jpg");
-  } else {
-    myImage.setAttribute("src", "images/apostle.jpg");
-  }
-});
+//myImage.addEventListener("click", () => {
+  //const mySrc = myImage.getAttribute("src");
+  //if (mySrc === "images/apostle.png") {
+    //myImage.setAttribute("src", "images/cactus.png");
+  //} else {
+    //myImage.setAttribute("src", "images/apostle.png");
+  //}
+//});
+

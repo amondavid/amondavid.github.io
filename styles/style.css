@@ -1,14 +1,25 @@
 html {
-  /* px means "pixels". The base font size is now 10 pixels high */
   font-size: 10px;
-  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
   font-family: "Inter", sans-serif;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 }
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  color: white
+}
+
+/* created "title.link" class to remove hyperlink underline. */
+.title-link {
+  text-decoration: none;
+  border: none;
+}
+
 
 p,
 li {
@@ -27,7 +38,6 @@ body {
   margin: 0 auto;
   background-color: black;
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
 }
 
 h1 {
@@ -40,6 +50,8 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+  text-decoration: none;
+  border: none
 }
 
 .done {
