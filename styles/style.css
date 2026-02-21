@@ -6,44 +6,46 @@ html {
 h1 {
   font-size: 40px;
   text-align: center;
+  line-height: 48px;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 32px;
+  line-height: 40px;
   text-align: center;
-  color: white
+  color: #F2F2F2
 }
 
-/* created "title.link" class to remove hyperlink underline. */
-.title-link {
+
+a {
   text-decoration: none;
   border: none;
+  color: #7f43c3
 }
 
 
 p,
 li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-  color: white
+  font-size: 20px;
+  line-height: 30px;
+  color: #F2F2F2
 }
 
 html {
-  background-color: black;
+  background-color: #161616;
 }
 
 body {
   width: 600px; 
   margin: 0 auto;
-  background-color: black;
+  background-color: #161616;
   padding: 0 20px 20px 20px;
 }
 
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: white;
+  color: #F2F2F2;
 }
 
 img {
@@ -54,7 +56,23 @@ img {
   border: none
 }
 
-.done {
-  color: darkseagreen;
-  text-decoration: line-through solid black 2px;
+
+@media (min-width:768px) {
+  p,
+li {
+  font-size: 16px;
+  line-height: 24px;
+  color: #F2F2F2
+}
+
+}
+
+@media (min-width:1024px) {
+
+  body { width: 800px; 
+  margin: 0 auto;
+  background-color: #161616;
+  padding: 0 20px 20px 20px;
+}
+
 }
